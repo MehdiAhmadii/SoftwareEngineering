@@ -10,4 +10,4 @@ cat logfile.csv |awk '{if ($1 = /16:17/ && $2 ="WARN") print}'  FS=, |awk '{arr[
 #print independent class name
 cat logfile.csv |awk '{print $3}' FS=, |sort |uniq
 
-#for change onle
+#for change only for tets
